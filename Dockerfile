@@ -1,10 +1,3 @@
-############################################################
-# Dockerfile to build Nginx Installed Containers
-# Based on Ubuntu
-############################################################
-
-
-# Set the base image to Ubuntu
 FROM ubuntu:22.04
 
 # File Author / Maintainer
