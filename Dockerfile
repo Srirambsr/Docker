@@ -9,10 +9,10 @@ MAINTAINER Karthik Gaekwad
 # RUN echo "deb http://archive.ubuntu.com/ubuntu/ raring main universe" >> /etc/apt/sources.list
 
 # Update the repository
-RUN apt-get update
+RUN yum update
 
 # Install necessary tools
-RUN yum install -y vim wget dialog net-tools
+# RUN yum install -y vim wget dialog net-tools
 
 RUN yum install -y nginx
 
