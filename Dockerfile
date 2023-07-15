@@ -12,9 +12,9 @@ MAINTAINER Karthik Gaekwad
 RUN apt-get update
 
 # Install necessary tools
-RUN apt-get install -y vim wget dialog net-tools
+RUN yum install -y vim wget dialog net-tools
 
-RUN apt-get install -y nginx
+RUN yum install -y nginx
 
 # Remove the default Nginx configuration file
 RUN rm -v /etc/nginx/nginx.conf
